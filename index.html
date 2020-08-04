@@ -40,16 +40,14 @@
         document.getElementById("audio1").hidden=true
         function toggleAudio() {
             var audio = document.getElementById("audio1");
+            var label = document.getElementById('enjoy');
+
             if (audio.paused) {
+                label.innerHTML =  "סובלים"
                 audio.play()
             } else {
-                audio.pause()
-            }
-            var label = document.getElementById('enjoy');
-            if (label.innerHTML ===  "נהנים") {
-                label.innerHTML =  "סובלים"
-            } else {
                 label.innerHTML = "נהנים"
+                audio.pause()
             }
         }
     </script>
