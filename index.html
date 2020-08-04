@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="CSS/navbar.css">
+    <title>Odyssey Year 5 Website</title>
+</head>
+<body>
+    <div class="topnav" id="myTopnav">
+        <a style="float: right; padding: 14px 16px; background-color: #0cb1ab" href="Pages/summaries.html" onMouseOver="this.style.backgroundColor='#ffffff'"
+   onMouseOut="this.style.backgroundColor='#0cb1ab'">סיכומים</a>
+        <a style="float: right; padding: 14px 16px; background-color: #0cb1ab" href="Pages/gallery.html"onMouseOver=" this.style.backgroundColor='#ffffff'"
+   onMouseOut="this.style.backgroundColor='#0cb1ab'">גלרייה</a>
+        <a style="float: right; padding: 14px 16px; background-color: #0cb1ab" href="Pages/about.html" onMouseOver="this.style.backgroundColor='#ffffff'"
+   onMouseOut="this.style.backgroundColor='#0cb1ab'">אודות</a>
+        <a href="index.html" style="padding-top: 10px; padding-left: 10px"><img src="Images/logo2.jpeg" height="33px"></a>
+    </div>
+
+    <p dir="rtl" style="alignment: right; padding: 30px; padding-top: 10px; line-height: 1.5em;"> ברוכים הבאים לאתר הרשמי של מחזור ה' של אודיסאה! באתר זה תוכלו למצוא מגוון תכנים, הכל מפתרונות לימוד (סיכומים) ועד לפתרונות צילום (תמונות).
+        האתר הזה כמעט ריק מתוכן, על כן יכול להיות שהתבלבלתם והתכוונתם להגיע לאתר עם קצת יותר מידע. לדוגמה לינק
+        <a dir="rtl" href="https:/belmonte.huji.ac.il/book/odyssey" style="color: #0cb1ab">לינק לאתר אודיסאה בבלמונטה</a>
+        או לחילופין הלינק
+        <a href="https://drive.google.com/drive/folders/1BtcBIpl_zTht1KWKR7Qjl_RoavkmfQG0?usp=sharing" style="color: #0cb1ab">לדרייב שלא באחריותנו לצערנו</a>.
+    </p>
+    <p align="center"><audio controls autoplay style="alignment: center" id="audio1">
+        <source src="Music/scatman.mp3">
+    </audio></p>
+    <div>
+        <p class="footer">
+            אם אתם
+            <a id="enjoy">סובלים</a>
+            יותר מדי,
+            <a id="suffer_link" href="#" onclick="toggleAudio()" style="color: #0cb1ab">
+            לחצו כאן
+            </a>
+        </p>
+    </div>
+    <script>
+        document.getElementById("audio1").hidden=true
+        function toggleAudio() {
+            var audio = document.getElementById("audio1");
+            if (audio.paused) {
+                audio.play()
+            } else {
+                audio.pause()
+            }
+            var label = document.getElementById('enjoy');
+            if (label.innerHTML ===  "נהנים") {
+                label.innerHTML =  "סובלים"
+            } else {
+                label.innerHTML = "נהנים"
+            }
+        }
+    </script>
+</body>
+</html>
