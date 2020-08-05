@@ -1,9 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:upstream" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="889de3be-2197-4be8-988b-d7a1eda7c5f0" name="Default Changelist" comment="">
+    <list default="true" id="889de3be-2197-4be8-988b-d7a1eda7c5f0" name="Default Changelist" comment="changed page height in summaries.html">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/summaries.html" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/summaries.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylesheet.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,14 +74,40 @@
       <workItem from="1596559950365" duration="3671000" />
       <workItem from="1596626629167" duration="1430000" />
       <workItem from="1596638167735" duration="1365000" />
-      <workItem from="1596651235889" duration="300000" />
+      <workItem from="1596651235889" duration="1130000" />
     </task>
+    <task id="LOCAL‎00001" summary="changed page height in summaries.html">
+      <created>1596651558435</created>
+      <option name="number" value="LOCAL‎00001" />
+      <option name="presentableId" value="LOCAL‎00001" />
+      <updated>1596651558435</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="changed page height in summaries.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed page height in summaries.html" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="586" y="203" key="#Inspections" timestamp="1596653991390">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="586" y="203" key="#Inspections/0.0.1920.1050/1982.0.1858.1080@0.0.1920.1050" timestamp="1596653991390" />
     <state x="709" y="327" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1596627066618">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -87,5 +136,9 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="461" y="170" key="SettingsEditor/0.0.1920.1050/1982.0.1858.1080@0.0.1920.1050" timestamp="1596626937726" />
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1596651569005">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050/1982.0.1858.1080@0.0.1920.1050" timestamp="1596651569005" />
   </component>
 </project>
