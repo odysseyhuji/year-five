@@ -24,12 +24,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="889de3be-2197-4be8-988b-d7a1eda7c5f0" name="Default Changelist" comment="added transparent logo">
-      <change beforePath="$PROJECT_DIR$/Pages/gallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/gallery.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/summaries.html" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/summaries.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/about.html" afterDir="false" />
-    </list>
+    <list default="true" id="889de3be-2197-4be8-988b-d7a1eda7c5f0" name="Default Changelist" comment="added alternative text on logo in index.html" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -76,7 +71,7 @@
       <workItem from="1596559950365" duration="3671000" />
       <workItem from="1596626629167" duration="1430000" />
       <workItem from="1596638167735" duration="1365000" />
-      <workItem from="1596651235889" duration="2072000" />
+      <workItem from="1596651235889" duration="2768000" />
     </task>
     <task id="LOCAL‎00001" summary="changed page height in summaries.html">
       <created>1596651558435</created>
@@ -96,7 +91,13 @@
       <option name="presentableId" value="LOCAL‎00003" />
       <updated>1596655457221</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL‎00004" summary="added alternative text on logo in index.html">
+      <created>1596655624379</created>
+      <option name="number" value="LOCAL‎00004" />
+      <option name="presentableId" value="LOCAL‎00004" />
+      <updated>1596655624379</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,7 +118,9 @@
     <MESSAGE value="changed page height in summaries.html" />
     <MESSAGE value="added nicer looking scrollbar" />
     <MESSAGE value="added transparent logo" />
-    <option name="LAST_COMMIT_MESSAGE" value="added transparent logo" />
+    <MESSAGE value="added transparent logo to home as well" />
+    <MESSAGE value="added alternative text on logo in index.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="added alternative text on logo in index.html" />
   </component>
   <component name="WindowStateProjectService">
     <state x="586" y="203" key="#Inspections" timestamp="1596653991390">
@@ -152,9 +155,9 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="461" y="170" key="SettingsEditor/0.0.1920.1050/1982.0.1858.1080@0.0.1920.1050" timestamp="1596626937726" />
-    <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1596655463508">
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1596655630748">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050/1982.0.1858.1080@0.0.1920.1050" timestamp="1596655463508" />
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050/1982.0.1858.1080@0.0.1920.1050" timestamp="1596655630748" />
   </component>
 </project>
