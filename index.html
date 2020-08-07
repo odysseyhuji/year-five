@@ -5,6 +5,7 @@
 <!-- https://www.hostinger.com/tutorials/website/how-to-link-a-stylesheet-css-file-to-your-html-file -->
 <link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen"/>
 <head>
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     <title></title>
 <meta charset="UTF-8">
 
@@ -18,27 +19,17 @@
 </script> -->
 </head>
 <body translate="no">
-  <nav class="nav">
-  <div class="container">
-  <div class="logo">
-  <!-- <a href="Images/logo2.jpeg">Odyssey-five</a> -->
-  <a href="index.html" style="padding-top: 25px; padding-left: 10px"><img src="Images/logo2.jpeg" height="33px"></a>
-  </div>
-  <div id="mainListDiv" class="main_list">
-  <ul class="navlinks">
-  <li><a href="/Pages/summaries.html">Summaries</a></li>
-  <li><a href="/Pages/gallery.html">Gallery</a></li>
-  <li><a href="/Pages/about.html">About us</a></li>
-  <li><a href="#">Contact</a></li>
-  </ul>
-   </div>
-  <span class="navTrigger">
-  <i></i>
-  <i></i>
-  <i></i>
-  </span>
-  </div>
-  </nav>
+
+  <!--Navigation bar-->
+  <div id="nav-placeholder"></div>
+
+  <script>
+  $(function(){
+    $("#nav-placeholder").load("/nav.html");
+  });
+  </script>
+  <!--end of Navigation bar-->
+
 <section class="home">
 </section>
 <div style="height: 1000px">
